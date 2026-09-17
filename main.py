@@ -4,7 +4,7 @@ import cvzone
 import math
 from sort import *
 
-model = YOLO("yolov8s.pt") 
+model = YOLO("yolov8l.pt") 
 
 Class_names = model.names 
 print(Class_names)
